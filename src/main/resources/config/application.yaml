@@ -1,0 +1,10 @@
+spring:
+    profiles:
+        active: standalone
+    main:
+        show_banner: false
+
+logging:
+    level:
+        org.springframework: WARN
+        org.hibernate: WARN

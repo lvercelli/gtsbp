@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost/tsbp_db
+        username: tsbp_r
+        password: 12348765
+
+logging:
+    level:
+        org.lvh: DEBUG
